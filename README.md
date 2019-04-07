@@ -6,7 +6,7 @@ Group effort to solve the sparkfun HARP v2 puzzle
 2. Connected device to computer and connected via terminal at 9600
 3. Got the message "USB ID Fail"
 ![usb id fail](images/190407_usb_id_fail.jpg)
-3. Took a snap of the board too with the white LED
+3. Took a snap of the board too with the white LED 
 ![first connection](images/190407_first_connection.jPG)
 4. Found a reference in one of the documents to adding a resistor to put the device in debug mode [USB ID REV A](spec/SP250___DATASHEET_ERRATA-USB_ID_REV._A_.pdf)
 3. Solder a 1k ohm resistor on the device.
@@ -15,6 +15,7 @@ Group effort to solve the sparkfun HARP v2 puzzle
 ![usb id pass](images/190407_usb_id_pass.jpg)
 5. Then this happened:
 ![commands](images/190407_commands.jpg)
+
 NOTE: I got the memory address 0x14A2 from the [boot procedure spec sheet](spec/SP250___DATASHEET_ERRATA-BOOT_PROCEDURE__REV._A_.pdf)
 6. I then tried a menu item 4, that wasn't on the list: 
 ```
